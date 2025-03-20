@@ -85,8 +85,8 @@ namespace ApiAggregator.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
-
-        private async Task<string> SimpleFetch(string url)
+        [HttpGet("simplefetch")]
+        public async Task<string> SimpleFetch(string url)
         {
             try
             {
@@ -97,8 +97,8 @@ namespace ApiAggregator.Controllers
                 return null;
             }
         }
-
-        private async Task<string> HeadersFetch(string url)
+        [HttpGet("headersfetch")]
+        public async Task<string> HeadersFetch(string url)
         {
             try
             {
@@ -172,7 +172,7 @@ namespace ApiAggregator.Controllers
         }
     }
 
-public class TokenResponse
+    public class TokenResponse
     {
         public string access_token { get; set; }
         public string token_type { get; set; }

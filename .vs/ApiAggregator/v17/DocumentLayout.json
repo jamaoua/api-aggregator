@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD4EF384-B96C-4673-8004-2FE9A4D7144F}|ApiAggregator.Tests\\ApiAggregator.Tests.csproj|c:\\users\\user\\source\\repos\\apiaggregator\\apiaggregator\\apiaggregator.tests\\aggregateddatacontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4EF384-B96C-4673-8004-2FE9A4D7144F}|ApiAggregator.Tests\\ApiAggregator.Tests.csproj|solutionrelative:apiaggregator.tests\\aggregateddatacontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{311939BD-C194-4342-8E40-EFF8977965DB}|ApiAggregator\\ApiAggregator.csproj|c:\\users\\user\\source\\repos\\apiaggregator\\apiaggregator\\apiaggregator\\controllers\\aggregateddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{311939BD-C194-4342-8E40-EFF8977965DB}|ApiAggregator\\ApiAggregator.csproj|solutionrelative:apiaggregator\\controllers\\aggregateddatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311939BD-C194-4342-8E40-EFF8977965DB}|ApiAggregator\\ApiAggregator.csproj|c:\\users\\user\\source\\repos\\apiaggregator\\apiaggregator\\apiaggregator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{311939BD-C194-4342-8E40-EFF8977965DB}|ApiAggregator\\ApiAggregator.csproj|solutionrelative:apiaggregator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AggregatedDataControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\ApiAggregator.Tests\\AggregatedDataControllerTests.cs",
+              "RelativeDocumentMoniker": "ApiAggregator.Tests\\AggregatedDataControllerTests.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\ApiAggregator.Tests\\AggregatedDataControllerTests.cs",
+              "RelativeToolTip": "ApiAggregator.Tests\\AggregatedDataControllerTests.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:21:34.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AggregatedDataController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\ApiAggregator\\Controllers\\AggregatedDataController.cs",
               "RelativeDocumentMoniker": "ApiAggregator\\Controllers\\AggregatedDataController.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\ApiAggregator\\Controllers\\AggregatedDataController.cs",
               "RelativeToolTip": "ApiAggregator\\Controllers\\AggregatedDataController.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHcAAABQAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwBMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T10:39:04.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\ApiAggregator\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiAggregator\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ApiAggregator\\ApiAggregator\\ApiAggregator\\appsettings.json",
+              "RelativeToolTip": "ApiAggregator\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T21:17:56.56Z",
               "EditorCaption": ""
             }
           ]

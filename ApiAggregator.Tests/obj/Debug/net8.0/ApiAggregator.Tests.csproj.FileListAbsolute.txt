@@ -111,3 +111,4 @@ C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator.Tests\obj\D
 C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator.Tests\obj\Debug\net8.0\ApiAggregator.Tests.pdb
 C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator.Tests\obj\Debug\net8.0\ApiAggregator.Tests.genruntimeconfig.cache
 C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator.Tests\obj\Debug\net8.0\ref\ApiAggregator.Tests.dll
+C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator.Tests\obj\Debug\net8.0\ApiAggregator.Tests.sourcelink.json

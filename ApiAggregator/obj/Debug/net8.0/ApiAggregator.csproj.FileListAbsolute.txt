@@ -37,3 +37,4 @@ C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator\obj\Debug\n
 C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator\obj\Debug\net8.0\ApiAggregator.pdb
 C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator\obj\Debug\net8.0\ApiAggregator.genruntimeconfig.cache
 C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator\obj\Debug\net8.0\ref\ApiAggregator.dll
+C:\Users\USER\source\repos\ApiAggregator\ApiAggregator\ApiAggregator\obj\Debug\net8.0\ApiAggregator.sourcelink.json
