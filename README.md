@@ -29,6 +29,7 @@ This project is an API Aggregation service built with ASP.NET Core. It fetches a
    private string client_id = "YOUR_SPOTIFY_CLIENT_ID";
    private string client_secret = "YOUR_SPOTIFY_CLIENT_SECRET";
    ```
+   Add your API key in the appropriate place before running the project.
 4. Build the project:
    ```sh
    dotnet build
