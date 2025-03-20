@@ -17,11 +17,11 @@ namespace ApiAggregator.Controllers
         private readonly ILogger<AggregatedDataController> _logger;
 
         ///NEWS CREDENTIALS
-        private string newsApiKey = "";
+        private string newsApiKey = "YOUR_NEWS_API_KEY";
 
         ///SPOTIFY CREDENTIALS
-        private string client_id = "";
-        private string client_secret = "";
+        private string client_id = "YOUR_SPOTIFY_CLIENTID";
+        private string client_secret = "YOUR_SPOTIFY_CLIENT_SECRET";
 
         ///WEATHER INPUTS
         private double latitude = 37.98;
