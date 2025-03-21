@@ -15,13 +15,14 @@ namespace ApiAggregator.Controllers
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<AggregatedDataController> _logger;
+        private readonly IConfiguration _configuration;
 
         ///NEWS CREDENTIALS
-        private string newsApiKey = "YOUR_NEWS_API_KEY";
+        private string newsApiKey;
 
         ///SPOTIFY CREDENTIALS
-        private string client_id = "YOUR_SPOTIFY_CLIENTID";
-        private string client_secret = "YOUR_SPOTIFY_CLIENT_SECRET";
+        private string client_id;
+        private string client_secret;
 
         ///WEATHER INPUTS
         private double latitude = 37.98;
@@ -31,11 +32,15 @@ namespace ApiAggregator.Controllers
         private string artistUri = "4Z8W4fKeB5YxbusRsdQVPb";
 
 
-        public AggregatedDataController(HttpClient httpClient,ILogger<AggregatedDataController> logger)
+        public AggregatedDataController(HttpClient httpClient,ILogger<AggregatedDataController> logger, IConfiguration configuration)
         {
+            _configuration = configuration;
             _httpClient = httpClient;
             _logger = logger;
-            
+            newsApiKey = _configuration["ApiSettings:NewsApiKey"];
+            client_id = _configuration["ApiSettings:SpotifyClientId"];
+            client_secret = _configuration["ApiSettings:SpotifyClientSecret"];
+
         }
 
         [HttpGet]
