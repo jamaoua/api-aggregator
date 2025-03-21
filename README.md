@@ -23,11 +23,13 @@ This project is an API Aggregation service built with ASP.NET Core. It fetches a
    ```sh
    dotnet restore
    ```
-3. Update API keys in `AggregatedDataController.cs`:
-   ```csharp
-   private string newsApiKey = "YOUR_NEWSAPI_KEY";
-   private string client_id = "YOUR_SPOTIFY_CLIENT_ID";
-   private string client_secret = "YOUR_SPOTIFY_CLIENT_SECRET";
+3. Update API keys in `AppSettings.json`:
+   ```json
+   "ApiSettings": {
+      "NewsApiKey": "YOUR_NEWS_API_KEY",
+      "SpotifyClientId": "YOUR_SPOTIFY_CLIENTID",
+      "SpotifyClientSecret": "YOUR_SPOTIFY_CLIENT_SECRET"
+   },
    ```
 4. Build the project:
    ```sh
